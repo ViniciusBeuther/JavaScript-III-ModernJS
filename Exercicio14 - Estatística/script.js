@@ -46,4 +46,4 @@ console.log(`Média ponderada: ${calcularPonderada(
     {nota: 10, peso: 2}
 )}`)
 
-console.log(`Mediana: ${calcMediana(1,2,3,7,6,4,9,10,5,13,15,17)}`)
+console.log(`Mediana: ${calcMediana(1,2,3,7,6,4,9,10,5,13,15)}`)
