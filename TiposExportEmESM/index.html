@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Export</title>
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <h1>Tipos de Export</h1>
+    <ul>
+        <h2>Modulos - Formas</h2>
+        <li>Export Nomeado Inline: Porque precisa passar o nome exato dele, export vai na mesma linha. Numero ilimitado<br> 
+            <code>export function name(name){   codeblock   }
+                <br>
+                import { functionName } from "./filepath.js"
+            </code>
+        </li>
+
+        <br>
+        <li>Default export: Podemos exportar com um nome qualquer, limitado a 1 export default funct... por arquivo (pode ser até funcao anonima)
+        <br>
+        <code>export default name(params){ codeblock }
+        <br>
+        import nomeQualquer from "./filepath.js"
+        </code>
+        </li>
+        <br>
+        <li>
+            Export NonInLine é quando podemos agrupar o export, podemos usar export { function1, function2, ... }, podemos misturar default export e export
+        </li>
+    </ul>
+</body>
+</html>
