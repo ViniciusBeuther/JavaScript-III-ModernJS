@@ -1,0 +1,14 @@
+{
+  "name": "using_day_js",
+  "version": "1.0.0",
+  "description": "Trying to use the dayJs library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.9"
+  }
+}
