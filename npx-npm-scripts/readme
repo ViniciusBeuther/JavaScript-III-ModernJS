@@ -1,0 +1,14 @@
+NPX é para executar um comando no terminal do pacote que instalamos, alguns tem e outros não.
+    Usamos: npx (nomeDoExec)
+
+Script do npm
+    Serve para executar qualquer procedimento ou comando.
+    podemos colocar dentro do package.json na area de "scripts" e rodamos usando:
+    
+        npm run (NomeDefinido)
+    
+    - Sao como atalhos para executar atraves do terminal, podemos definir um da seguinte sintaxe
+
+    "nomeParaChamar":"comando para executar"
+    "start":"node index.js"
+        npm run start - Execução
