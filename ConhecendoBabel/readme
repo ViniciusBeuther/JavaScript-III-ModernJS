@@ -1,0 +1,12 @@
+Babel é um compilador de Javascript
+Permite utilizar recursos modernos e faz a transformação para funcionar em navegadores mais desatualizados
+mantendo a compatibilidade com todos os navegadores.
+
+Transforma o código de uma linguagem moderna para uma linguagem mais antiga para conseguir deixar compativel com navegadores mais antigos
+
+Instalar como dependencia de desenvolvimento
+  - npm install -D @babel/core @babel/cli @babel/preset-en
+  - mesma coisa que usar (npm install --save-dev...)
+
+Executar o babel em um código Javascript
+  - npx babel index.js
