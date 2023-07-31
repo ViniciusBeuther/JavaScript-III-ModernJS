@@ -1,0 +1,17 @@
+Para executar o Babel em um codigo usamos:
+    - npx babel .\src\script.js --out-file dist.js
+    - npx babel "diretorio do arquivo, caso no root so usar o nome.js" 
+    - --out-file: cria um arquivo de saída com o código babel
+    - dist.js: Aqui colocamos o nome da saida do arquivo
+
+Gerar so um aquivo:
+    - npx babel .\src\script.js(input)  --out-file dist.js(output) --presets=@babel/preset-env
+    
+
+Para que funcione com o modelo antigo de js usamos:
+    - npx babel .\src\script.js --out-dir dist --presets=@babel/preset-env
+    - --presets=@babel/preset-env: aqui carrega como modelos antigos, podemos adicionar tambem o comando no package.json para ficar mais facil
+
+Para rodar um script do package usamos:
+    - npm run ScripName
+    
