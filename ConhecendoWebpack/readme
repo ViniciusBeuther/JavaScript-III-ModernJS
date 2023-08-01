@@ -1,0 +1,17 @@
+É um empacotador de módulo estatico:
+    - Bundles: Um conjunto de pacotes de saída
+    - Pega o conteudo e junta tudo isso em um pacote e pode ser servido estaticamente
+        - É como baixar um arquivo da internet, o navegador entrega o pacote para o computador
+    - Pega o ponto de entrada e verifica os pacotes e dependencias usando um grafo (estrutura de dado) e junta tudo em um só pacote
+
+Peças chave:
+    - Entry: ponto de entrada onde o webpack vai procurar os arquivos
+    - Output: saida resultante do empacotamento dos módulos
+    - Loaders: o webpack por padrão so entende Javascript e JSON, loaders permite que o webpack entenda outras arquivos como .css .jpg etc
+    - Plugins: São usados para estender o comportamento do webpack, permitem tarefas mais elaboradas do que os loaders (que apenas transformam módulos)
+
+Por que usar:
+    - Permite trabalhar de forma mais facil, incluindo módulos CommonJS
+    - Permite automatizar gerenciamento dos módulos
+    - Empacotar módulos em arquivos estaticos, permitindo que eles sejam servidos na web de forma facil e rapida
+    - Muito utilizado no mercado

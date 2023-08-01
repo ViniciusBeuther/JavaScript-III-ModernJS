@@ -1,0 +1,6 @@
+Como inicializar o webpack:
+    - npm i -D webpack webpack-cli
+        - INiciamos como dependencia de desenvolvedor
+Para empacotar usamos:
+    - npx webpack
+Com o webpack podemos excluir a paste "node modules" pois tudo que precisamos esta no webpack
