@@ -4,3 +4,27 @@ Como inicializar o webpack:
 Para empacotar usamos:
     - npx webpack
 Com o webpack podemos excluir a paste "node modules" pois tudo que precisamos esta no webpack
+
+Configuração:
+    - webpack.config.js
+
+Webpack.config.js:
+    - module.exports = {
+        entry: {
+            main: './path'
+        },
+        mode: 'development'
+    }
+
+Loaders:
+    - Permite que o webpack leia outros tipos de conteudos
+    - INSTALAÇÃO:
+        - npm i -D style-loader css-loader //Nesse caso é para ler css, caso queira outro loader tem que ver a documentação
+            - COnfiguramos o resto no webpack.config.js
+            - module: {
+                rules:[{
+                    test: /\.css$/      -> quais arquivos testar, usar regEx
+                }]
+            }
+                - Podemos importar o css dentro do js, usando: import '../index.css'
+                    - temos q rodar a cada alteração o npx webpack
