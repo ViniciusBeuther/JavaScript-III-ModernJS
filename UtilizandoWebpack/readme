@@ -28,3 +28,13 @@ Loaders:
             }
                 - Podemos importar o css dentro do js, usando: import '../index.css'
                     - temos q rodar a cada alteração o npx webpack
+
+Plugins:
+    - usamos o npm install como nos outros
+    - Podemos usar para criar novos arquivos no dist (Os pacotes)
+    - colocamos dentro do arquivo webpack.config.js
+        - Usamos: const NomePlugin = require('Modulo')
+            adicionamos: plugins: [
+                new nomePluginConst()
+            ]
+            entao adicionamos no loader adicionando o nome.loader. sem aspas

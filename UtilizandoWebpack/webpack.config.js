@@ -1,4 +1,6 @@
 const path = require('path') //Node js module
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+
 
 module.exports = {
     entry: {
@@ -17,7 +19,10 @@ module.exports = {
     module: {
         rules: [{
             test: /\.css$/, //file that we gonna use
-            use:  ['style-loader', 'css-loader'] //Loaders that we're going to use
+            use:  [MiniCssExtractPlugin.loader, 'css-loader'] //Loaders that we're going to use
         }]
-    }
+    },
+    plugins: [
+        new MiniCssExtractPlugin()
+    ]
 }
