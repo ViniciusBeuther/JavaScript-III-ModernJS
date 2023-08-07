@@ -1,0 +1,11 @@
+1- Criar um projeto com npm init
+2- Criar as pastas
+    - src > styles
+    - criar um index.css e um index.js, adicionar o .css dentro da pasta style e importa-lo no js
+3- Instalar o webpack
+4- Instalar o babel, webpack e dependencias
+    - npm i -D webpack webpack-cli @babel/core @babel/preset-env style-loader css-loader babel-loader
+5- criar e configurar o babel.config.js com o preset (ver babel.config.js)
+6- criar e configurar webpack ver webpack.config.js
+7- adicionado o script "build" no package.json
+    - npm run build
